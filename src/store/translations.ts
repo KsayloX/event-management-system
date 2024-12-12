@@ -1,0 +1,180 @@
+export const translations = {
+  en: {
+    // App
+    'app.title': 'Event Manager',
+    
+    // Events
+    'events.create': 'Create Event',
+    'events.upcoming': 'Upcoming Events',
+    'events.calendar': 'Calendar',
+    'events.inDays': '{days} days left',
+    'events.noEvents': 'No events found. Create one to get started!',
+    'events.delete': 'Delete event',
+    'events.deleteSuccess': 'Event deleted successfully!',
+    'events.deleteError': 'Failed to delete event',
+    
+    // Form
+    'form.title': 'Title',
+    'form.titlePlaceholder': 'Enter event title',
+    'form.description': 'Description',
+    'form.descriptionPlaceholder': 'Enter event description',
+    'form.date': 'Date and Time',
+    'form.location': 'Location',
+    'form.locationPlaceholder': 'Enter event location',
+    'form.organizer': 'Organizer',
+    'form.organizerPlaceholder': 'Enter organizer name',
+    'form.categories': 'Categories',
+    'form.submit': 'Create Event',
+    'form.success': 'Event created successfully!',
+    'form.error': 'Failed to create event',
+    
+    // Categories
+    'category.training': 'Training',
+    'category.conference': 'Conference',
+    'category.social': 'Social',
+    'category.webinar': 'Webinar',
+    'category.workshop': 'Workshop',
+    'category.meetup': 'Meetup',
+
+    // Guide
+    'guide.show': 'Guide',
+    'guide.back': 'Back to Events',
+    'guide.welcome': 'Welcome to Event Manager',
+    'guide.subtitle': 'Your all-in-one solution for event planning and management',
+    'guide.features.calendar.title': 'Calendar View',
+    'guide.features.calendar.description': 'View and manage your events in an intuitive calendar interface',
+    'guide.features.notifications.title': 'Smart Notifications',
+    'guide.features.notifications.description': 'Get timely reminders about upcoming events',
+    'guide.features.comments.title': 'Event Comments',
+    'guide.features.comments.description': 'Collaborate and discuss events with other participants',
+    'guide.features.attendees.title': 'Attendee Management',
+    'guide.features.attendees.description': 'Track and manage event participants easily',
+    'guide.features.language.title': 'Multi-language Support',
+    'guide.features.language.description': 'Use the app in your preferred language',
+    'guide.features.offline.title': 'Offline Support',
+    'guide.features.offline.description': 'Access your events even without internet connection',
+    'guide.quickStart.title': 'Quick Start Guide',
+    'guide.quickStart.steps': 'Create your first event|Set up notifications',
+    'guide.proTips.title': 'Pro Tips',
+    'guide.proTips.tips': 'Use categories for better organization|Set reminders in advance|Export events to your calendar',
+    'guide.telegram.title': 'Telegram Integration',
+    'guide.telegram.description': 'Get event notifications directly in Telegram',
+    'guide.telegram.setup.title': 'Setup Instructions',
+    'guide.telegram.setup.steps': 'Create a Telegram bot|Get your bot token|Add bot to your group|Configure in settings',
+    
+    // Settings
+    'settings.title': 'Settings',
+    'settings.language': 'Language',
+    'settings.telegram': 'Telegram Settings',
+    'settings.botToken': 'Bot Token',
+    'settings.chatId': 'Chat ID',
+    'settings.save': 'Save Settings',
+    'settings.saveSuccess': 'Settings saved successfully',
+
+    // Analytics
+    'analytics.title': 'Analytics',
+    'analytics.thisMonth': 'Events This Month',
+    'analytics.nextEvent': 'Next Event',
+    'analytics.popularCategory': 'Popular Category',
+    'analytics.mostUsed': 'Most used category',
+    'analytics.inDays': '{days} days until event',
+
+    // Export
+    'export.title': 'Export Events',
+    'export.calendar': 'Calendar Export',
+    'export.calendarDesc': 'Export your events to your calendar application',
+    'export.backup': 'Backup Data',
+    'export.backupDesc': 'Create a backup of all your event data',
+    'export.downloadICS': 'Download Calendar File (ICS)',
+    'export.downloadJSON': 'Download Backup File (JSON)',
+  },
+  ru: {
+    // App
+    'app.title': 'Менеджер Событий',
+    
+    // Events
+    'events.create': 'Создать событие',
+    'events.upcoming': 'Предстоящие события',
+    'events.calendar': 'Календарь',
+    'events.inDays': 'Осталось {days} дней',
+    'events.noEvents': 'События не найдены. Создайте первое событие!',
+    'events.delete': 'Удалить событие',
+    'events.deleteSuccess': 'Событие успешно удалено!',
+    'events.deleteError': 'Ошибка при удалении события',
+    
+    // Form
+    'form.title': 'Название',
+    'form.titlePlaceholder': 'Введите название события',
+    'form.description': 'Описание',
+    'form.descriptionPlaceholder': 'Введите описание события',
+    'form.date': 'Дата и время',
+    'form.location': 'Место проведения',
+    'form.locationPlaceholder': 'Укажите место проведения',
+    'form.organizer': 'Организатор',
+    'form.organizerPlaceholder': 'Укажите организатора',
+    'form.categories': 'Категории',
+    'form.submit': 'Создать событие',
+    'form.success': 'Событие успешно создано!',
+    'form.error': 'Ошибка при создании события',
+    
+    // Categories
+    'category.training': 'Тренинг',
+    'category.conference': 'Конференция',
+    'category.social': 'Встреча',
+    'category.webinar': 'Вебинар',
+    'category.workshop': 'Воркшоп',
+    'category.meetup': 'Митап',
+
+    // Guide
+    'guide.show': 'Руководство',
+    'guide.back': 'Вернуться к событиям',
+    'guide.welcome': 'Добро пожаловать в Менеджер Событий',
+    'guide.subtitle': 'Ваше комплексное решение для планирования и управления событиями',
+    'guide.features.calendar.title': 'Календарь',
+    'guide.features.calendar.description': 'Просматривайте и управляйте событиями в удобном календарном интерфейсе',
+    'guide.features.notifications.title': 'Умные уведомления',
+    'guide.features.notifications.description': 'Получайте своевременные напоминания о предстоящих событиях',
+    'guide.features.comments.title': 'Комментарии к событиям',
+    'guide.features.comments.description': 'Обсуждайте события с другими участниками',
+    'guide.features.attendees.title': 'Управление участниками',
+    'guide.features.attendees.description': 'Отслеживайте и управляйте списком участников',
+    'guide.features.language.title': 'Поддержка языков',
+    'guide.features.language.description': 'Используйте приложение на предпочитаемом языке',
+    'guide.features.offline.title': 'Офлайн-режим',
+    'guide.features.offline.description': 'Доступ к событиям даже без интернета',
+    'guide.quickStart.title': 'Быстрый старт',
+    'guide.quickStart.steps': 'Создайте первое событие|Настройте уведомления|Поделитесь информацией',
+    'guide.proTips.title': 'Советы профи',
+    'guide.proTips.tips': 'Используйте категории для организации|Устанавливайте напоминания заранее|Экспортируйте события в календарь',
+    'guide.telegram.title': 'Интеграция с Telegram',
+    'guide.telegram.description': 'Получайте уведомления о событиях прямо в Telegram',
+    'guide.telegram.setup.title': 'Инструкция по настройке',
+    'guide.telegram.setup.steps': 'Создайте бота в Telegram|Получите токен бота|Добавьте бота в группу|Настройте в приложении',
+
+    // Settings
+    'settings.title': 'Настройки',
+    'settings.language': 'Язык',
+    'settings.telegram': 'Настройки Telegram',
+    'settings.botToken': 'Токен бота',
+    'settings.chatId': 'ID чата',
+    'settings.save': 'Сохранить настройки',
+    'settings.saveSuccess': 'Настройки успешно сохранены',
+
+    // Analytics
+    'analytics.title': 'Аналитика',
+    'analytics.thisMonth': 'События в этом месяце',
+    'analytics.nextEvent': 'Следующее событие',
+    'analytics.popularCategory': 'Популярная категория',
+    'analytics.mostUsed': 'Самая используемая категория',
+    'analytics.inDays': 'До события осталось {days} дней',
+
+    // Export
+    'export.title': 'Экспорт событий',
+    'export.calendar': 'Экспорт в календарь',
+    'export.calendarDesc': 'Экспортируйте события в календарное приложение',
+    'export.backup': 'Резервное копирование',
+    'export.backupDesc': 'Создайте резервную копию всех данных',
+    'export.downloadICS': 'Скачать файл календаря (ICS)',
+    'export.downloadJSON': 'Скачать резервную копию (JSON)',
+  }
+} as const;
